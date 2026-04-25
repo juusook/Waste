@@ -1,6 +1,5 @@
 from re import split
 
-
 def poista_välimerkit(teksti):
     välimerkit = [',', '.', '!', '?']
     lista = teksti.split()
